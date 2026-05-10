@@ -86,3 +86,6 @@ app.post("/login", async (req, res) => {
 app.listen(3000, () => {
   console.log("Server Running on Port 3000");
 });
+
+//npm init -y
+//npm install express mongoose cors body-parser
