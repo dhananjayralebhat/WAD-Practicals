@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Mobile Website</title>
+
+    <!-- jQuery Mobile CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- jQuery Mobile JS -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Home Page -->
+<div data-role="page" id="home">
+
+    <!-- Header -->
+    <div data-role="header" data-theme="b">
+        <h1>My Mobile Website</h1>
+    </div>
+
+    <!-- Main Content -->
+    <div role="main" class="ui-content content-box">
+
+        <h2>Welcome to Our Website</h2>
+
+        <p>
+            This is a simple responsive mobile website created using jQuery Mobile.
+            It works properly on mobile phones, tablets, and desktops.
+        </p>
+
+        <!-- Services -->
+        <div class="service-box">
+            <h3>📚 Online Courses</h3>
+            <p>Learn programming, web development, cloud computing and more.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>📝 Online Exams</h3>
+            <p>Attend mock tests and online examinations easily.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>🛒 Ecommerce Services</h3>
+            <p>Buy books, notes, and educational materials online.</p>
+        </div>
+
+        <!-- Buttons -->
+        <a href="#about"
+           class="ui-btn ui-btn-b ui-corner-all">
+           About Us
+        </a>
+
+        <a href="#contact"
+           class="ui-btn ui-btn-success ui-corner-all">
+           Contact Us
+        </a>
+
+    </div>
+
+    <!-- Footer -->
+    <div data-role="footer"
+         data-position="fixed"
+         data-theme="b">
+
+        <h4>© 2026 Mobile Website</h4>
+
+    </div>
+
+</div>
+
+<!-- About Page -->
+<div data-role="page" id="about">
+
+    <div data-role="header" data-theme="b">
+        <a href="#home" data-icon="back">Back</a>
+        <h1>About Us</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+
+        <h2>About Our Website</h2>
+
+        <p>
+            This website is developed using HTML, CSS, jQuery and jQuery Mobile.
+            It provides mobile-friendly pages and responsive design.
+        </p>
+
+        <ul data-role="listview" data-inset="true">
+            <li>Responsive Design</li>
+            <li>Mobile Friendly</li>
+            <li>Simple Navigation</li>
+            <li>Fast Loading</li>
+        </ul>
+
+    </div>
+
+    <div data-role="footer"
+         data-position="fixed"
+         data-theme="b">
+
+        <h4>About Footer</h4>
+
+    </div>
+
+</div>
+
+<!-- Contact Page -->
+<div data-role="page" id="contact">
+
+    <div data-role="header" data-theme="b">
+        <a href="#home" data-icon="back">Back</a>
+        <h1>Contact Us</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+
+        <form>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message"></textarea>
+
+            <button type="submit"
+                    class="ui-btn ui-btn-b">
+                    Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+    <div data-role="footer"
+         data-position="fixed"
+         data-theme="b">
+
+        <h4>Contact Footer</h4>
+
+    </div>
+
+</div>
+
+</body>
+</html>

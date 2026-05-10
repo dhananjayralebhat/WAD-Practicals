@@ -1,0 +1,17 @@
+  .content-box{
+            text-align: center;
+            padding: 20px;
+        }
+
+        .service-box{
+            background: #f2f2f2;
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 10px;
+        }
+
+        .footer-fixed{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
